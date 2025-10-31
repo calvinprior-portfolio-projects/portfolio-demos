@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+
+  
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    letter-spacing: .2rem;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 21px;
+    color: white;
+}
+
+.score {
+    font-size: 80px;
+    background-color: black;
+    color: red;
+    margin: 20px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+
+.scoreboard {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+   
+}
+
+.container {
+    
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 65px 68px;
+    width: 80%
+
+}
+
+
+
+
+
+
+
+  
+    
+    .btn-container {
+        display: flex;
+        justify-content: space-around;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .btn-inc {
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        border: solid white 1px;
+       font-size: 12px;
+       
+    }
+    
+    .display-winner {
+        color: black;
+    }
+    
+    .winner {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        border: solid 2px green;
+        padding: 2rem;
+    }
+    
+  
+  
+
+   
