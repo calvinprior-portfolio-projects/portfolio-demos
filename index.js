@@ -63,9 +63,7 @@ triggerNewGame.addEventListener("click", function () {
     
 })
 
-window.increment = increment
-window.save = save
-window.reset = reset
+
 
 
 
